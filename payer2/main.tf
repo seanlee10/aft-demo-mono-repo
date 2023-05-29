@@ -8,6 +8,11 @@ terraform {
   }
 }
 
+provider "aws" {
+  alias  = "seoul"
+  region = "ap-northeast-2"
+}
+
 
 module "guardrails" {
   source = "../modules/guardrails"
