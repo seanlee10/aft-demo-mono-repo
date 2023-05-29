@@ -8,14 +8,12 @@ terraform {
   }
 }
 
-
-
 module "guardrails" {
   source = "../modules/guardrails"
 
 }
 
-module "guardrails" {
+module "permission_sets" {
   source = "../modules/permission_sets"
 
 }
