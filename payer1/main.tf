@@ -3,10 +3,11 @@ terraform {
     organization = "terraform-aft-demo"
 
     workspaces {
-      name = "payer2"
+      name = "payer1"
     }
   }
 }
+
 
 
 module "guardrails" {
